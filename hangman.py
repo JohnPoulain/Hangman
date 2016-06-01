@@ -12,6 +12,9 @@ messy_list = hangman_words.readlines()
 WORDS = [elem.strip() for elem in messy_list]
 hangman_words.close()
 
+#THIS IS FOR RUNNING ON WEB WITHOUT ANY IMPORTED WORDS
+#WORDS = ["longing", "rusted", "seventeen", "daybreak", "furnace", "nine", "benign", "homecoming", "one", "freight car"]
+
 incorrect = []
 wrong = 0 #number of incorrect guesses
 
